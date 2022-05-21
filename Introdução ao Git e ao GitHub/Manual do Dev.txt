@@ -1,0 +1,26 @@
+#Comandos Básicos no Git Bash 
+
+Dir - Lista de diretórios na pasta situada. 
+
+cd/ - permite que naveguemos entre as pastas. 
+
+cd .. - volta para o repositorio c 
+
+cls - limpa o terminal windows 
+
+mkdir - criar pastas - Aconselhável a usar o nome "workspace" 
+
+cd workspace - entra dentro dessa pasta. 
+
+echo hello - printa uma frase que você digitou 
+
+echo hello > (redirecionador de fluxo) - ele pega a saída dessa função e coloca dentro de um arquivo - hello.txt 
+
+del workspace - deletar os arquivos dentro da pasta. 
+
+echo hello > hello.txt 
+dir
+cd..
+dir 
+
+rmdir workspace /s /q - apaga tudo.
