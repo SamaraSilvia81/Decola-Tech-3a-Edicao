@@ -1,0 +1,15 @@
+		COMANDOS E CÓDIGOS NO TERMINAL GIT BASH 
+
+Se eu quiser listar todas as pastas e arquivos que eu tenho dentro do 
+diretório atual, por exemplo, "Main". É só digitar - ls -
+
+mkdir - é o comando usado para criar pastas. 
+Ex: mkdir projetos - criei uma pasta chamada projetos.
+
+cd projetos/ - entra na pasta projetos
+
+code - É um apelido para o vs code ir na pasta bin da pasta de comando.
+Ex: code . - abre a página onde está no diretório atual.
+Ex2: code teste.html - Você está abrindo um arquivo específico do 
+diretório atual.
+

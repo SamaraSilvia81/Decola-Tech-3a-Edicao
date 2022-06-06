@@ -1,0 +1,87 @@
+Declarar - Dizer se uma variável é var, let ou const;
+Atribuir - Dar valores aquela variável.
+Hosting - Capacidade de atribuir valores,a ntes de declarar.
+
+Tipagem Dinâmica - Podemos modificar o tipo de dado em JS ao longo da codagem.
+
+Primitivos - Números, strings..
+Compostos - Objects e Arrays.
+
+
+STRINGS
+
+Textos ou frases declaradas entre aspas simples/duplas ou crases com interpolação.
+
+nome.concat(sobrenome) - Você concatena o "nome" mais sobrenome.
+
+let exemplo = "blablabla"
+let exemplo = new String("blablabla") - Se colocarmos String com a letra inicial maiúscula vira um objeto.
+
+Mesmo quando trabalhamos com valores primitivos se colocarmos . e algum método
+do sistema o JS transforma essa strign em objeto e retorna o que você peidu.
+
+"\"" - imprime as aspas.
+
+frase.split("") - separa tudo dentro da variável frase de acordo com o que foi
+pedido dentro dos (), ou seja, se tivesse virgula ficaria (,).
+
+frase.includes("tudo") - você pergunta se essa palavra está na frase.
+frase.startsWith(o) - começa com a letra "o"
+frase.endsWith(a) - termina com a letra "a"?
+frase.replace(",","!") - você muda a frase por outra com essa especificação.
+
+
+NUMBERS
+
+Math - é um método que tem raiz quadrada, pi ...
+
+math.floor(variavel) - arredonda para baixo.
+
+
+ARRAYS
+
+array.push() - adiciona um elemento no final do array.
+array.pop() - tira o elemento final.
+array.shift() - tira o primeiro elemento.
+array.unshift() - adiciona no começo do array.
+iteratividade - pode fazer interações em cada elemento do array - array.lenght.
+includes retorna valor booleano.
+
+array.every(item => item ===5) - saber se todos os itens são 5.
+array.some(item=> item==5) - saber se algum é 5.
+array.reverse() - inverte todos os valores do array - decrescente ou crescente.
+
+OBJETOS
+
+let person = { chave: valor } 
+Ex: let person = {nome:'Samara'}
+obj.name = "julia" - objeto tem chave chamada "name" com valor "julia".
+
+let mom = "lal"
+nome[mom] = "maria" - fazer delcarada de variavel entre colchete é quando
+queremos colocar a variavel dentro. Ou seja, quando fosse vê dentro do objeto
+lal = maria.
+
+se fizessemos person.mom - teria sido criado uma chave mom.
+
+
+EMPTY,UNDERFINED E NULL
+
+Empty - Quando você declara uma variável se for número é 0, se for string é só
+"", se é array inicializou só com [], se é objeto só com {} - é quando não tem
+nenhum valor ali. Está vazio. - Você declara, mas não atribue nada.
+
+Null - É quando você quer que aquela valor não exista de propósito. Ele não foi
+inicializado. - Você declara e atribue como nada.
+
+Undefined - Você nem declarou e nem atribuiu. É indefinido.
+
+
+
+
+
+
+
+
+
+

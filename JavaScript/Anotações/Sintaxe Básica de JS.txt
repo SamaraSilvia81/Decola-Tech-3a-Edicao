@@ -1,0 +1,255 @@
+ESCOPO
+
+O escopo em JS define a limitação e visibilidade de um bloco de
+código.
+
+Escopo Global - Quando a variável é declarada fora de qualquer 
+bloco, sua visibilidade fica disponível em todo o código.
+
+Escopo Local - Quando a variável é declarada dentro de um bloco,
+sua visibilidade pode ficar disponível ou não.
+
+Ex: 
+
+var escopoGlobal = "global";
+
+function escopoLocal(){
+let escopoLocalInterno = "local"
+}
+
+A "local" foi definida, mas se colocarmos o console.log fora
+da função essa variável fica "invisível" para o código todo.
+
+
+MANIPULANDO ARRAYS
+
+--> ForEach 
+
+forEach é um método.
+
+Ele itera tudo que estiver dentro do array. Para usá-lo é 
+preciso criar uma função.
+
+nomeDaVariável.forEach;
+
+
+--> Splice - remove ou substitui um item pelo índice.
+
+Ou seja, se você disser que quer array.splice(0,3) de um array 
+de 7 posições, você informa que os valores nos índice 0 a 3 
+devem ser apagados e o que sobrar virar um novo array.
+
+
+--> Slice faz o oposto de splice.
+
+
+OBJETOS
+
+São dados que possuem propriedades e valores que definem suas
+características. Deve ser declarado com {}
+
+Para aplicar o método de desestruturação você pode criar 
+variáveis para cada propriedade daquele objeto.
+
+Ex: var xicara{cor:'azul'}
+var nomeQualquer = nomeDaVariavel.propriedade
+var cor = xicara.cor;
+
+Ou você usa {} na hora da declaração e dentro das chaves você
+chama as propriedades.
+
+Ex: var {cor,tamanho} = xicara.
+
+Objetos conseguem guardar objetos, assim como arrays podem
+guardar arrays.
+
+Se quiser pegar uma propriedade específica você pode chamar
+a variável colocar um ponto e a propriedade.
+
+Ex: var xicara{cor:'azul',tamanho:'pequeno'}
+console.log(xicara.cor)
+
+
+ESTRUTURAS CONDICIONAIS
+
+--> switch/case
+
+switch(verificação){
+case condição;
+break;
+case condição2;
+break;
+default: condição.
+}
+
+Para cada case você faz um break.
+Caso o 1° case naõ seja atendido ou o 2°, então pula para o 
+default que é algo padrão.
+
+
+ESTRUTURAS DE REPETIÇÃO
+
+
+FOR
+
+--> For In: Funciona como uma repetição a partir de uma propriedade:
+
+for([indice]in[objeto ou array]){
+declaracao
+}
+
+Quando declarar o nome da variavel do for você pode usar o let
+ou, caso seja "i" só colocar o "i", porque o sistema entende
+como uma variável de estado.
+
+A diferença desse for para o for original é que no original
+fazemos o loop finito, a partir de uma condição(limite) do 
+fluxo do for e se caso ela for verdadeira, então o loop ocorrerá. 
+No entanto, esse for in se foca em executar a sua declaração 
+não importanto sua natureza booleana.
+
+Ex: No exemplo a seguir eu quero que exiba na tela um número de
+1 até 10, então eu faço um loop para otimizar o meu trabalho, pois 
+sem o for eu teria que executar o comando 10 vezes. 
+
+Ex: for(int i = 1; i<11;i++){
+console.log(i);
+}
+
+Ex: var letras = ['a', 'b', 'c'];
+for (let i in letras) {
+    console.log(i);
+}
+/*
+saída:
+0
+1
+2
+*/
+
+
+--> For Of:Funciona como uma repetição a partir de um valor.
+
+for([indice]of[array]){
+declaracao
+}
+
+Ex: var array=[´valor´,´valor2´]
+
+for(i of array){
+console.log(i);
+}
+
+retorna os valores de cada índice e não os índices em si (0,1).
+
+Esse for não funciona com objetos, pois as propriedades variam, diferentes
+do índice em um array que sempre serão números inteiros. 
+
+Mas você pode fazer passando a propriedade dentro da condição.
+
+Ex: 
+
+var xicara = {cor:"azul", tamanho:"pequeno"}
+
+for(i of xicara.cor){
+console.log(i);
+}
+
+Porém ele imprime cada letra em uma linha, por isso que não dá para usar.
+
+
+WHILE
+
+O loop ocorrerá enquanto a condição for verdadeira, ou seja, a verificação
+é feita antes da execução.
+
+Ex: var a = 0;
+
+while(a<10){
+a++;
+console.log(a);
+} 
+
+condição de parada: a<10.
+
+
+DO WHILE
+
+Executa uma instrução "até que" determinada condição seja falsa, a verificação
+é feita depois da execução.
+
+Ex: var a = 0;
+
+do{
+a++;
+console.log(a);
+} while(a<10)
+
+A variável a vai receber mais um e imprimir no console até que seu valor
+chegue a 10.
+
+
+FUNÇÕES E SUAS PROPRIEDADES
+
+São blocos de comandos e intruções para a execução para determinadas 
+tarefas:
+
+Ex: function nomeDaFuncao(){
+${instrucao};
+}
+
+nomeDaFuncao();
+
+Ex: 
+
+function comidaFavorita(){
+console.log("Lasanha e Doritos");
+}
+
+comidaFavorita;
+
+() - indica que é um bloco do tipo function;
+{} - indica que é um bloco de instruções.
+
+
+--> Função com parâmetros
+
+function mensagem(primeiro,segundo){
+console.log(primeiro,segundo);
+}
+
+mensagem('Tudo certo','jovem');
+
+
+TIPOS DE FUNÇÕES
+
+Declarativas: São aquelas que obrigatoriamente precisam de um nome.
+
+Ex: function letra(){console.log(letra);}
+
+
+Expressões de Funções: São funcções atribuídas à expressões. O nome é
+opcional, pois o JS já interpreta o nome da variável como o nome da função.
+
+Ex: var letra = function (){console.log(letra);}
+
+
+Arrow Function: São funções de expressão de sintaxe curta. São anônimas,
+entõa não podem ter nome.
+
+Ex: var funcao = function () => {console.log(letra);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

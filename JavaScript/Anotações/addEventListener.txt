@@ -1,0 +1,66 @@
+--addEventListener --
+
+É um método usado para capturar/esperar eventos de um único alvo.
+
+Uso: Você pode usar ele para eventos de "click", assim como pode usar o próprio "onclick" ou outros eventos.
+
+Como fazer: 
+
+1°) Você precisa pegar a referência daquele botão, por exemplo, ou seja, seu Id, Name, Class...
+2°) Você chama a varíavel que armazena a referência e coloca (.addEventListener) OU você coloca após a referência;
+3°) Você precisa determinar ao menos dois parâmetros: tipo de evento e o seu alvo (função);
+4°) Você pode usar esse método de duas formas:
+    A: É realizar o procedimento 3 e criar uma função separada;
+    B: É realizar o procedimento 3 + arrow function;
+
+Exemplo Prático:
+
+.Html
+        <button id="adicionar">+</button>
+
+.js
+        const btnPush = document.getElementById("adicionar");
+
+Forma A:
+
+   btnPush.addEventListener('click',increment);
+
+   function increment(){
+
+      currentNumber = currentNumber + 1;
+      currentNumberWrapper.innerHTML = currentNumber;
+   };
+
+Forma B:
+
+	btnPush.addEventListener('click',()=> {
+           currentNumber = currentNumber + 1;
+           currentNumberWrapper.innerHTML = currentNumber;
+        });
+
+Console:
+
+btnPush.addEventListener('click',(e)=> {
+console.log(e);
+console.log(e.target);
+console.log(e.target.getAttribute('id'));
+           
+});
+
+Obs: 
+
+Target é o próprio elemento, nesse caso é o próprio botão.
+
+e - É uma função que carrega o evento de "click", porque é o evento que eu quero. Ou você usa "event".
+
+previousElementSibling - é o nome de onde está o elemento de P. Então, se caso você quiser ao clicar no botão vir
+o que está dentro do parágrafo é só colocar isso, no lugar do get...
+
+Com esse aspecto você pode mudar valores do html também, por exemplo:
+e.target.previousElementSibling.innerText = "Troquei".
+
+
+
+
+
+
