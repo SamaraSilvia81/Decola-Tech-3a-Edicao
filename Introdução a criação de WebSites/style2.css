@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+nav {
+    display: flex; /*Deixa um do lado do outro*/
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+    background: #23232e;
+    height: 20vh; /*Cobre a altura da janela de visualização. 100 cobre tudo*/
+ }
+
+.title_imagem{
+
+    margin-right: 200px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid #505050;
+}
+
+.title_imagem:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#title:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#title{
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 4px;  /*Controla os espaços em branco do texto*/
+    color: #fff;
+}
+
+
+/* MAIN - CAROUSEL */
+
+
+.carousel-item{
+    height: 16rem;
+    text-align: center; 
+    padding-bottom: 20px;
+}
+
+.carousel{
+    background:#2a2a3a; 
+}
+
+
+/* ARTICLE */
+
+.container-article{
+    background: #23232e;
+    color: #fff;
+
+}
+
+.title-article{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.descrition-article{
+    text-align: center;
+    color: rgb(197, 202, 202);
+    padding-bottom: 20px;
+}
+
+.body-article{
+    padding-bottom: 20px;
+}
+.container-arlequina{
+    width: 1040px;
+    margin-left: 140px;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #2a2a3a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-list{
+    display: flex;  /* Faz ficar no centro */
+    list-style: none;  /* Retira as bolinhas de lista*/
+    margin-left: 300px;
+}
+
+.footer-list li{
+    letter-spacing: 3px;
+    margin-left: 100px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.footer-list li:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* GERAL */
+
+html,body{
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 999px){
+
+    .nav-list{
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .footer-list{
+        margin-left: 5px;
+    }
+
+    .footer-list li{
+        letter-spacing: 3px;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-left: 32px;
+    }
+
+    .carousel-item{
+        height: 8vh;
+    }    
+}
+
+h5{
+    /* margin-left: 35px;*/
+    text-align: center;
+}
