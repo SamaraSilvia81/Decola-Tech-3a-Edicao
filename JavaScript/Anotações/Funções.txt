@@ -1,0 +1,243 @@
+			     FUNÇÕES
+
+Aula 01: Tipos de Funções
+
+Quando invocamos o "return", a função para de ser executada e retorna
+o valor após ele.
+
+--> Função Anônima - Uma variável pode armazenar uma função.
+
+const soma = function(a,b){
+return a+b;
+}
+
+soma(1,2) // 3
+soma(5,4) // 9
+
+
+Aula 01.2: Função Autoinvocável
+
+É uma função anônima entre parênteses, seguida por outro par de 
+parênteses, que representa sua chamada.
+
+(function(){
+let name = "Digital Innovation One"
+return name;
+}
+)();
+
+Também pode ser utilizada com parãmetros ou armazenada em uma variável.
+
+Ex: (function(a,b){
+return a+b;
+}
+)(1,2);
+
+Ex2: const soma3 = (
+function(){ 
+   return a+b;
+}
+)(1,2); // 3
+
+console.log(soma3) // 3
+
+
+Aula 02: CallBacks
+
+Uma função passada como argumento para outra função.
+Utilizando callbacks, você tem maior controle da ordem de chamadas.
+
+Ex: operacao é uma função.
+
+
+Aula 02.1: Manipulação de Padrões
+
+Valor padrão nos parâmetros quando as pessoas não informam um parâmetro.
+
+Coloque "num" como parâmetro e ele vai ser igual a 1.
+
+
+--> Objeto "arguments": Um array com todos parâmetros passados quando
+a função foi invocada.
+
+
+Aula 02.2: Arrays e Objetos
+
+--> Arrays
+
+1.Técnica Spread uma forma de lidar separadamente com elementos.
+
+O que era parte de um array se torna um elemento independente.
+
+console.log(nomeDaFunção(...nomeDaVariável));
+
+
+2.Técnica Rest combina os argumentos em um array. É o inverso da técnica
+anterior.
+
+O que era um elemento independenete se torna parte de um array.
+
+
+--> Objetos 
+
+Object Destructuring - Desestruturação de Objetos - Entre chaves{},
+podemos filtrar apenas os dados que nos interessam em um objeto.
+
+
+Aula 03: Loops 
+
+--> If/Else
+
+Lembre que um loop condicional retorna um valor booleano.
+
+Você pode colocar uma condicional dentro de uma variável, deixando
+legível o intuito daquela condição.
+
+Você não precisa necessariamente sempre do else, você pode só colocar
+return false/true. Se não cair nesse if, então return true/false.
+
+--> Switch/Case - Serve para muitas verificações evitando muitos ifs.
+
+Equivale a uma comparaçaõ de tipo e valor (===)
+Sempre precisa de um valor "default" - quando nenhuma das condições
+é atendida.
+
+
+Aula 03.1:For e While
+
+--> For é um loop dentro de elementos iteráveis (arrays, strings).
+
+--> For..in é um loop entre propriedade enumeráveis de um objeto.
+
+prop - cada propriedade dentro daquele objeto.
+.prop ou obj[prop] acessa o valor de cada propriedade.
+
+--> For..of é um loop entre estruturas iteráveis (arrays, strings).
+
+Ele separa cada integrante do elemento como um indice do array. Ele
+faz o processo parecido com o split.
+
+--> While - Executa instruções até que a condição se torne falsa.
+
+--> Do..While -> Faz uma atividade até que a condição seja falsa, mas
+ele executa pelo menos uma fez.
+
+Ex: ele log como 6 e depois satisfaz a condição.
+
+
+Aula 03.2: THIS E MANIPULANDO DE SEUS VALORES
+
+This - Referência para o contexto de onde você está.
+
+Quando você usa dentro de um método (nome da função dentro de um objeto)
+ele vai se referir ao objeto pai.
+
+Ex: pessoa vai retornar firtsName.
+
+Seu valor pode mudar de acordo com o local no código onde foi chamada.
+
+O this não é só um facilitador (ou um complicador), mas também agrega um 
+valor semântico ao código, assim como “ele” agrega um valor semântico à 
+frase que falamos anteriormente. Se fossemos obrigados a repetir em todas 
+as chamadas o nome do objeto que queremos referenciar, poderíamos acabar 
+com conflitos de nomenclatura.
+
+Ao criar várias variáveis em arquivos e projetos distintos, vamos cair em 
+um problema, onde nosso código pode tentar executar uma propriedade de uma 
+variável global sem que saibamos. Isso causa um aumento significativo na 
+dificuldade de debug da nossa aplicação, pois vamos ter que adivinhar 
+qual seria essa variável global que estamos chamando.
+
+Portanto, o uso do this não é só estético, mas ajuda a entender que 
+estamos querendo acessar a propriedade de um objeto anterior, assim como 
+“ele” nos dizia que estamos querendo dizer o nome da pessoa citada 
+anteriormente na sentença.
+
+
+- Manipulando seu valor - 
+
+--> Método Call - Quando temos mais de um objeto com uma ou várias propriedades
+em comum, podemos usar o Call para evitar confrontos. Para isso, colocamos
+.call após uma função que terá como console.log(this.propriedade) e dentro
+dos () a nomeDaVaríavel que queremos que o this referencie.
+
+É possível passar parâmetros para essa função seprando-os por vírgulas.
+
+--> Método Apply - Ela tem uma implemntação parecida com a Call, mas diferenciando-se
+pelo fato de que o Apply na hora de passar os argumentos na função com parâmetros
+é preciso colocar eles dentro de um array, além de serem separados por vírgula.
+
+--> Método Bind - Clone a estrutura da função onde é chamada e aplicar o valor do objeto
+passado como parâmetro.
+
+
+Aula 04: Arrow Functions - Sintaxe e Outras Restrições
+
+Ela é representada pelo => - ela é equivalente a uma função anônima,
+porém ao invés de ter o nome function e {}, só colcoamos () e =>
+e após a seta o que queremos retornar, não preicsando do return.
+
+Aliada a uma variável.
+
+- Caso exista apenas uma linhas, pode dispensar as chaves e o return.
+- Caso exista apenas um parâmetro, pode dispensar os parênteses.
+- Arrow Funcrion não faz hoisting (chamar a variável/função antes de decalrar),
+isso porque, é armazenada dentro de uma constante. 
+
+- "this" sempre será o objeto global. Métodos para modificar seu
+valor não irão funcionar;
+- Não existe o objeto "arguments";
+- O construtur (Ex: new MeuObjeto()) também não pode ser utilizado.
+ 
+https://www.alura.com.br/artigos/construtores-em-javascript
+https://imasters.com.br/javascript/javascript-entendendo-o-de-uma-vez-por-todas
+
+Use para uma função comum e não para métodos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

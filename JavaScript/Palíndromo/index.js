@@ -7,7 +7,7 @@ function verificaPalindromo(string){
     let palindromo = string.split("").reverse().join("");
     console.log(`\nA sua palavra inversa é ${palindromo}`);
 
-    return `A sua palavra é um palíndromo? ${string.split("").reverse().join("") === string}`; /*Se string tiver valor aplica isso. */
+    return `A sua palavra é um palíndromo? ${string.split("").reverse().join("") === string}`; /* Se string tiver valor aplica isso. */
     
     /* Quando a gente usou o split automaticamente a string se tornou um arrya com todos os caracteres.
     Join junta tudo. */

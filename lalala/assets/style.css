@@ -1,0 +1,85 @@
+#logo {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 35px;
+    width: 105px;
+    background-color: transparent; 
+}
+
+.icon {
+    height: 30px;
+    width: 32px;
+    padding: 3px;
+}
+
+.cabecalho {
+    background-color: #1F1F1F;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    grid-template-columns: 1fr auto auto auto auto;
+    grid-template-rows: 50px;
+    column-gap: 10px;
+}
+
+body {
+    background-color: #575757;
+}
+
+.video {
+    width: 300px;
+    height: 300px;
+}
+
+.rodape {
+    background-color: #1F1F1F;
+    position: absolute;
+	bottom: 0;
+    height: 23%;
+    width: 100%;
+}
+
+.logo-rodape {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 32px;
+    width: 100px;
+}
+
+.facebook {
+    height: 30px;
+    width: 32px;
+    padding: 3px;
+}
+.insta {
+    height: 30px;
+    width: 32px;
+    padding: 3px;
+}
+.twitter {
+    height: 30px;
+    width: 32px;
+    padding: 3px;
+}
+
+#jc_info {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    line-height: 50px; 
+    padding-left: 2%;
+ }
+ 
+ #jc_info a {
+    color: black;
+    text-decoration: none;
+ }
+
+ .video-escolhido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }

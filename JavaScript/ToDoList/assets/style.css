@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2? family= Roboto & display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  
+nav {
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+ }
+
+h2{
+     color: #fff;
+     margin-left: 90px;
+     padding-top: 40px;
+     padding-bottom: 40px;
+     font-size: 40px;
+}
+
+p {
+    padding-top: 20px;
+    text-align: justify;
+    margin-left: 5px;
+}
+
+.overflow-auto{
+    color: #7747e7;
+}
+
+#entrada{
+    width: 78%;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid #cccc;
+    color: black;
+    font-weight: 500;
+}
+
+#btEntrada{
+    background-color: #7747e7;
+    border: 2px solid #7747e7;
+    float: right;
+    margin-left: 20px;
+    margin-right: 22px;
+    margin-top: 2px;
+    width: 40px;
+    height: 40px;
+    padding-top: 4px;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 5px;
+    border: none;
+    border-radius: 100px;
+}
+
+div{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.risco{
+    text-decoration: line-through;
+}
+
+.container2{  /* Estilo da caixa que abriga todo o body*/
+    border: 2px solid white;
+    width: 35%;
+    min-width: 550px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    padding: 30px 40px;
+}
+
+.container{
+    background-color: #ffff !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.container3{
+    background-color: #ffffff;
+    height: 50px;
+    padding: 5px 10px;
+    padding-top: 20px;
+    padding-bottom:190px;  /*190*/
+    margin-top: 40px;
+    border-radius: 10px;
+    border-bottom: 2px #ffff;
+    cursor: pointer;
+    overflow-y: scroll;
+}
+
+button{
+    background-color: #fff;
+    color: #7747e7;
+    text-align: right;
+    text-align: center;
+    width: 30px;
+    height: 10%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 300px;
+    margin-bottom: 15px;
+}
+
+input{
+    width: 10%;
+    height: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(150deg, #00dbde 20%, #7747e7 100% );
+}
+
+ /* #00ff80*/
+ 
