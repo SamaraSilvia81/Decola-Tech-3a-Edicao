@@ -1,5 +1,8 @@
 # Curso da Digital Innovation One
 # Introdução ao React Native
+
+blob:https://web.whatsapp.com/cb7ff164-8410-45f5-8714-27aba5e078ff
+
 # Conteúdo
 - Conhecendo o React Native
   - O que é react-native?
