@@ -17,6 +17,9 @@ const colorDarkFontGitHub = '#4F565E';
 const imageProfileGitHub = 'https://avatars.githubusercontent.com/u/100232025?v=4';
 const urlToMyGitHub = 'https://github.com/SamaraSilvia81/';
 
+const colorDarkProgressGit = 'https://color-hex.org/colors/006d32.png';
+const colorLightProgressGit = 'https://cdn.crispedge.com/2bc545.png';
+
 const App = () => {
  
   const handlePressGoToGitHub = async () =>{ // essa função só ocorre quando clicamos no button, por isso é assíncrono.
@@ -54,13 +57,506 @@ const App = () => {
           Programadora em formação | @samarasilvia13
         </Text>
 
-        <Pressable onPress={handlePressGoToGitHub}>
+        <View style = {style.content3} >
+
+        <View style = {style.content2} >
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+          </View>
+
+          <View style = {style.content2} >
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+          </View>
+
+          <View style = {style.content2} >
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+          </View>
+     
+          <View style = {style.content2} >
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            </View>
+
+            <View style = {style.content2} >
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorLightProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+          </View>
+          
+          <View style = {style.content2} >
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+            <Image 
+              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              style = {style.darkProgress} 
+              source={{uri:colorDarkProgressGit}}
+            /> 
+
+          </View>
+
+        </View>
+
+       <Pressable onPress={handlePressGoToGitHub}>
           <View style={style.button}>
             <Text style={[style.defaultText,style.textButton]}> Open in GitHub </Text>
           </View>
         </Pressable>
 
       </View>
+
     </SafeAreaView>
   );
 };
@@ -80,6 +576,13 @@ const style = StyleSheet.create({
   },
   content:{ // Fica após o container e abrange o conteúdo do site/app.
     alignItems:'center',
+    padding:20,
+  },
+  content2:{ // Fica após o container e abrange o conteúdo do site/app.
+    flexDirection:'row',
+    padding:1,
+  },
+  content3:{ // Fica após o container e abrange o conteúdo do site/app.
     padding:20,
   },
   avatar:{
@@ -104,6 +607,7 @@ const style = StyleSheet.create({
   description:{
     fontSize:14,
     fontWeight:'bold',
+    marginBottom:6,
   },
   button:{
     marginTop:20,
@@ -115,4 +619,15 @@ const style = StyleSheet.create({
     fontSize:16,
     fontWeight:'bold',
   },
+  darkProgress:{
+    height:10, // obrigatório
+    width:10, // obrigatório
+    borderRadius:2.5, // metade dos px da imagem.
+    marginLeft:2,
+  },
+  lightProgress:{
+    height:15, // obrigatório
+    width:15, // obrigatório
+    borderRadius:5, // metade dos px da imagem.
+  }
 });
