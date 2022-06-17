@@ -148,73 +148,73 @@ const App = () => {
             /> 
 
             <Image
-              accessibilityLabel='Box Green da 2° linha e 1° coluna.'
+              accessibilityLabel='Box Green da 2° linha e 2° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 2° linha e 3° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 2° linha e 4° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 2° linha e 5° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 2° linha e 6° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 2° linha e 7° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 2° linha e 8° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+             accessibilityLabel='Box Green da 2° linha e 9° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 2° linha e 10° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 2° linha e 11° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 2° linha e 12° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 2° linha e 13° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
@@ -224,79 +224,79 @@ const App = () => {
           <View style = {style.content2} >
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 3° linha e 1° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 3° linha e 2° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 3° linha e 3° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 3° linha e 4° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 3° linha e 5° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 3° linha e 6° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 3° linha e 7° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 3° linha e 8° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 3° linha e 9° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 3° linha e 10° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 3° linha e 11° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 3° linha e 12° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 3° linha e 13° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
@@ -306,79 +306,79 @@ const App = () => {
           <View style = {style.content2} >
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 4° linha e 1° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 4° linha e 2° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 4° linha e 3° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 4° linha e 4° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 4° linha e 5° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+             accessibilityLabel='Box Green da 4° linha e 6° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 4° linha e 7° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 4° linha e 8° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+             accessibilityLabel='Box Green da 4° linha e 9° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 4° linha e 10° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 4° linha e 11° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 4° linha e 12° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 4° linha e 13° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
@@ -387,79 +387,79 @@ const App = () => {
 
             <View style = {style.content2} >
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 5° linha e 1° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+               accessibilityLabel='Box Green da 5° linha e 2° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+               accessibilityLabel='Box Green da 5° linha e 3° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+               accessibilityLabel='Box Green da 5° linha e 4° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+               accessibilityLabel='Box Green da 5° linha e 5° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+               accessibilityLabel='Box Green da 5° linha e 6° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 5° linha e 7° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+               accessibilityLabel='Box Green da 5° linha e 8° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+               accessibilityLabel='Box Green da 5° linha e 9° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+               accessibilityLabel='Box Green da 5° linha e 10° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 5° linha e 11° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorLightProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+               accessibilityLabel='Box Green da 5° linha e 12° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
 
             <Image 
-              accessibilityLabel='Samara com luz ambiente e fundo decorativo de planta e jarro com frutas'
+              accessibilityLabel='Box Green da 5° linha e 13° coluna.'
               style = {style.darkProgress} 
               source={{uri:colorDarkProgressGit}}
             /> 
