@@ -8,6 +8,7 @@ Parse.initialize(
 const input = document.getElementById("entrada");
 const botao = document.getElementById("btEntrada");
 const div = document.getElementById("div");
+const completed = document.getElementsByClassName('completed');
 
 let tarefas = [];
 
@@ -24,35 +25,38 @@ function gerarLista() {
     const txt = document.createTextNode(
       `${tarefas[i].get("Descricao")}`
     );
-
+ 
     const div2 = document.createElement("div");
-    div2.value = "class", "div2";
-  
+    div2.className = tarefas[i].get('Concluido') ? 'risco' : 'semRisco';
+    
     const check = document.createElement("input");
     check.type = "checkbox";
-    check.value = "class", "check";
+    check.className = 'check';
+    check.id="CheckBox";
     check.checked = tarefas[i].get("Concluido");
 
     check.onclick = (evt) => atualizarTarefa(evt, tarefas[i], div2);
 
     const remove = document.createElement("button");
-    remove.value = "class", "remove";
+    remove.className = "class", "remove";
     remove.innerHTML = 'remover';
+    remove.id="btnRemove";
     
-    remove.onclick = (evt) => removerTarefa(evt, tarefas[i]);
-
+    remove.onclick = (evt2) => removerTarefa(evt2, tarefas[i]);
+   
+    div2.appendChild(txt); 
     div.appendChild(li);
     li.appendChild(check);
-    div2.appendChild(txt); 
-    li.appendChild(div2);
     li.appendChild(remove);
-    
+    li.appendChild(div2);
+   
   }
 }
 
 const exibirTarefa = async () => {
   const Tarefa = Parse.Object.extend('Tarefa');
   const query = new Parse.Query(Tarefa);
+
   try {
     const results = await query.find();
     tarefas = results;
@@ -67,6 +71,7 @@ const criarTarefa = async () => {
   const myNewObject = new Parse.Object('Tarefa');
   myNewObject.set('Descricao', input.value);
   myNewObject.set('Concluido', false);
+
   try {
     const result = await myNewObject.save();
     console.log('Tarefa created', result);
@@ -77,8 +82,9 @@ const criarTarefa = async () => {
 };
 
 const atualizarTarefa = async (evt,tarefa,div2) => {
-  tarefa.set('Concluido',evt.target.checked);
 
+  tarefa.set('Concluido',evt.target.checked);
+  
     if(evt.target.checked){
       div2.className = "risco";
     } else{
@@ -96,6 +102,7 @@ const atualizarTarefa = async (evt,tarefa,div2) => {
 
 const removerTarefa = async (evt, tarefa) => {
   tarefa.set('Concluido', evt.target.remove);
+  
     try {
       const response = await tarefa.destroy();
       console.log(response.get('Concluido'));
@@ -106,7 +113,9 @@ const removerTarefa = async (evt, tarefa) => {
     }
 };
 
+
 botao.onclick = criarTarefa;
+
 exibirTarefa();
 gerarLista();
 atualizarTarefa();

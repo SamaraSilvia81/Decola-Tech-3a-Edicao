@@ -1,5 +1,11 @@
 /* Aplicar conceitos de orientação a objeto */
 
+const agencia = document.getElementById('agencia');
+const numero = document.getElementById('numero');
+const tipo = document.getElementById('tipo');
+const check = document.getElementById('btnCheck');
+const saldoCB = document.getElementById('saldoCB');
+
 class ContaBancaria{
     constructor(agencia,numero,tipo){
         this.agencia = agencia;
@@ -75,3 +81,11 @@ class ContaUniversitaria extends ContaBancaria{
 }
 
 // Polimorfismo - as contas filhas se comprotam diferente, mesmo quando herdam propriedades do pai.
+
+
+/* if(tipo.value = 3){
+    console.log('Conta Bancária foi ativada')
+    criarContaBancaria();
+    check.onclick = criarContaBancaria();
+}
+*/

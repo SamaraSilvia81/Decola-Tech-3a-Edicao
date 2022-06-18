@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2? family= Roboto & display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  
+nav {
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+ }
+
+h2{
+     color: #fff;
+     margin-left: 90px;
+     padding-top: 40px;
+     padding-bottom: 40px;
+     font-size: 40px;
+}
+
+p {
+    padding-top: 20px;
+    text-align: justify;
+    margin-left: 5px;
+}
+
+.overflow-auto{
+    color: #7747e7;
+}
+
+#entrada{
+    width: 78%;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid #cccc;
+    font-weight: 500;
+}
+
+#btEntrada{
+    background-color: #7747e7;
+    border: 2px solid #7747e7;
+    margin-left: 20px;
+    margin-right: 22px;
+    margin-top: 2px;
+    width: 40px;
+    height: 40px;
+    padding-top: 4px;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 5px;
+    border: none;
+    border-radius: 100px;
+}
+
+div{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.risco{
+    text-decoration: line-through !important;
+    color:#00dbde;
+}
+
+.container{
+    background-color: #ffff !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.container2{  /* Estilo da caixa que abriga todo o body*/
+    border: 2px solid white;
+    width: 35%;
+    position: absolute;
+    min-width: 598px;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    padding: 30px 40px;
+}
+
+#div{
+    background-color: #ffffff;
+    height: 50px;
+    padding: 5px 10px;
+    padding-top: 20px;
+    padding-bottom:190px;  /*190*/
+    margin-top: 40px;
+    border-radius: 10px;
+    border-bottom: 2px #ffff;
+    overflow-y: scroll;
+}
+
+#btEntrada:hover, #btnRemove:hover{
+    -webkit-transform: scale(1.09);
+}
+
+#entrada:hover{
+    border: 2px solid #7747e7;
+    transition: 0.5s;
+}
+
+#CheckBox{
+    float: left;
+}
+
+#btnRemove{
+    background-color: #fff;
+    color: #7747e7;
+    text-align: right;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    width: 35px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 40px;
+    float: right;
+}
+
+input{
+    width: 10%;
+    height: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(150deg, #00dbde 20%, #7747e7 100% );
+}
+
+ /* #00ff80*/
+
+ @media(max-width:900px){
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(150deg, #00dbde 20%, #7747e7 100% );
+    }
+
+    .container2{  /* Estilo da caixa que abriga todo o body*/
+        border: 2px solid white;
+        width: 35%;
+        position: absolute;
+        min-width: 598px;
+        transform: translate(-50%,-50%);
+        top:50%;
+        left: 50%;
+        padding: 30px 40px;
+    }
+
+    .container{  /* Estilo da caixa que abriga todo o body*/
+        width: 100%;
+        position: absolute;
+        transform: translate(-50%,-70%);
+        top:50%;
+        left: 50%;
+        padding: 30px 40px;
+    }
+
+    #entrada{
+        width: 70%;
+        height: 45px;
+        font-size: 15px;
+        border: 2px solid #cccc;
+        color: black;
+        font-weight: 500;
+    }
+ }
+ 
+ @media(max-width:820px){
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(150deg, #00dbde 20%, #7747e7 100% );
+    }
+
+    .container2{  /* Estilo da caixa que abriga todo o body*/
+        border: none;
+    }
+
+    .container{  /* Estilo da caixa que abriga todo o body*/
+        width: 90%;
+        position: absolute;
+        transform: translate(-66%,-70%);
+        top:50%;
+        left: 50%;
+        padding: 30px 40px;
+    }
+
+    #entrada{
+        width: 70%;
+        height: 45px;
+        font-size: 15px;
+        border: 2px solid #cccc;
+        color: black;
+        font-weight: 500;
+    }
+ }
+ 
+ @media(max-width:650px){
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(150deg, #00dbde 20%, #7747e7 100% );
+    }
+
+    .container2{  /* Estilo da caixa que abriga todo o body*/
+        border: none;
+        width: 35%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top:50%;
+        left: 50%;
+        padding: 30px 40px;
+    }
+
+    .container{  /* Estilo da caixa que abriga todo o body*/
+        width: 70%;
+        position: absolute;
+        transform: translate(-50%,-70%);
+        top:200%;
+        left: 50%;
+        padding: 30px 40px;
+    }
+
+    #entrada{
+        width: 70%;
+        height: 45px;
+        font-size: 15px;
+        border: 2px solid #cccc;
+        color: black;
+        font-weight: 500;
+    }
+ }
+
+ @media(max-width:450px){
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(150deg, #00dbde 20%, #7747e7 100% );
+    }
+
+    h2{
+        color: #fff;
+        margin-left: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 40px;
+   }
+
+    .container2{  /* Estilo da caixa que abriga todo o body*/
+        border: none;
+    }
+
+    .container{  /* Estilo da caixa que abriga todo o body*/
+        width: 50%;
+        transform: translate(-50%,-50%);
+        top:50%;
+        left: 50%;
+        padding: 30px 40px;
+    }
+
+    #entrada{
+        width: 70%;
+        height: 45px;
+        font-size: 15px;
+        border: 2px solid #cccc;
+        color: black;
+        font-weight: 500;
+    }
+
+    #btEntrada{
+        background-color: #7747e7;
+        border: 2px solid #7747e7;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 2px;
+        width: 40px;
+        height: 40px;
+        padding-top: 4px;
+        color: #fff;
+        text-align: center;
+        font-size: 22px;
+        border-radius: 5px;
+        border: none;
+        border-radius: 100px;
+    }
+
+   
+ }
+
+ 
